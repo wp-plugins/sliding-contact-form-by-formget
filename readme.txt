@@ -10,7 +10,7 @@ If you have a need to build and bespoke good looking form for your website, then
 == Description ==
 
 Sliding Contact Form By FormGet is a advance form builder tool. This plugin helps you to capture users information from your site. You can build unlimited contact forms in a seconds using 
-Contact Form Builder Option. This advance user friendly contact form creator includes some amazing features such as-
+Contact Form Builder Option. This advance user friendly contact form creator **includes some amazing features such as**-
 *  You can add unlimited number of contact form fields including different type of text input form fields, captcha, textarea and form submission button.
 * Sliding Contact Form By FormGet plugin allow to create contact form visually along with real time visual contact form editor.
 *  You can also add validation rule to your contact form.
