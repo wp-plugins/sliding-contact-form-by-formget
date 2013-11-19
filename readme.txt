@@ -11,19 +11,19 @@ If you have a need to build and bespoke good looking form for your website, then
 
 Sliding Contact Form By FormGet is a advance form builder tool. This plugin helps you to capture users information from your site. You can build unlimited contact forms in a seconds using 
 Contact Form Builder Option. This advance user friendly contact form creator **includes some amazing features such as**-
-*  You can add unlimited number of contact form fields including different type of text input form fields, captcha, textarea and form submission button.
-* Sliding Contact Form By FormGet plugin allow to create contact form visually along with real time visual contact form editor.
-*  You can also add validation rule to your contact form.
-*  Language customization for all text and labels in the form.
-*  Sliding Contact Form By FormGet allow you to set all the parameter such as font, color, custom branding, look and feel-layout and more.
-*  Manage multiple contact forms within a single dashboard.  
-*  Allow unlimited tickets creation in your contact form.
-*  User can collect payments in the contact form itself using PayPal payment system.
-*  Assign agents based on the ticket category of your contact form.
-*  Agent alert with an email on every ticket received via contact form.
-*  Send confirmation email on receive of contact form entry.
-*  Sliding Contact Form By FormGet support shortcode, so that contact form can visible on any page and post.
 
+        ? You can add unlimited number of contact form fields including different           type of text input form fields, captcha, textarea and form submission           button.
+	? Sliding Contact Form By FormGet plugin allow to create contact form                  visually along with real time visual contact form editor.
+	? You can also add validation rule to your contact form.
+	? Language customization for all text and labels in the form.
+	? Sliding Contact Form By FormGet allow you to set all the parameter such as           font, color, custom branding, look and feel-layout and more.
+	? Manage multiple contact forms within a single dashboard. 
+	? Allow unlimited tickets creation in your contact form.  
+        ? User can collect payments in the contact form itself using PayPal payment           system.
+	? Assign agents based on the ticket category of your contact form.
+	? Agent alert with an email on every ticket received via contact form.
+	?  Send confirmation email on receive of contact form entry.
+	? Sliding Contact Form By FormGet support shortcode, so that contact form           can visible on any page and post.
 The backend interface of the Sliding Contact Form By FormGet plugin is intuitive and user friendly which allow users far from scripting and programming to create contact form. Our Sliding Contact Form By FormGet
 plugs in at any of the given direction(left, right or bottom) you choose, of every page on your website and display a Contact Us button to generate more leads. You can also select the background color for your contact form that will complement your contact form.
 You can also display your Contact Form individually on pages, post, widgets and sidebar, by using the WordPress shortcode.
