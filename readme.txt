@@ -88,3 +88,7 @@ When you create account in FormGet you automatically get support desk. All the e
 == Upgrade Notice ==
 = 1.0 =
 * Initial release
+
+= 1.1 =
+* There is a new version of Sliding Contact Form By FormGet available.
+
