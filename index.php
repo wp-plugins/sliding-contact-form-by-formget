@@ -264,9 +264,9 @@ We have created a simple video for using the FormGet WordPress Plugin.
                         <h2>Review Us, and grab a chance of getting free Pro Account.</h2>
 
                         <div class="fg_section section-text" id="review_message">
-                           Give us a good review, and 1 people will get a chance of winning free pro account for 2 months. All you need to do is review us by clicking on review and then mail us at 'pankajguna000@gmail.com'. And 1 lucky winner will get a chance of winning free pro account, every month.<br><br>
+                           Give us a good review, and 1 person will get a chance of winning free pro account for 2 months. All you need to do is review us by clicking on review and then mail us at 'pankajguna000@gmail.com'. And 1 lucky winner will get a chance of winning free pro account, every month.<br><br>
 
-<span style="color: brown;"><b>Hurray!</b> </span> fast limited period offer, so review us now. 
+<span style="color: brown;"><b>Hurray!</b> </span> make it fast limited period offer, so review us now. 
                             <div class="review_link" style="float: right;"> 
 			<a href="http://wordpress.org/support/view/plugin-reviews/sliding-contact-form-by-formget" target="_blank" style="color: white; text-decoration:none;"> Review </a>
 							</div>
