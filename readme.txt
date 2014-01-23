@@ -49,7 +49,7 @@ This section describes how to install the plugin and get it working.
 4. Just click on the contact form tab and your online contact form builder will appear. 
 5. Now just create your contact form and save it. 
 6. Click on the embed button and copy the iframe code from "Embed Form On Your Website" tab.
-7. Paste it in the plugin section . 
+7. Paste it in the plugin section.
 
 == Screenshots ==
 
@@ -113,4 +113,7 @@ When you create account in FormGet you automatically get support desk. All the e
 * Initial release
 
 = 1.1 =
+* There is a new version of Sliding Contact Form By FormGet available.
+
+= 1.4 =
 * There is a new version of Sliding Contact Form By FormGet available.
