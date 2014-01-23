@@ -53,7 +53,12 @@ This section describes how to install the plugin and get it working.
 
 == Screenshots ==
 
-1. Screenshots
+1. Plugs in left direction.
+2. Sliding form from left side.
+3. Plugs in right direction.
+4. Sliding form from right direction.
+5. Plugs in bottom.
+6. Sliding form from bottom.
 
 == Frequently Asked Questions ==
 
