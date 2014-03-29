@@ -28,8 +28,6 @@ function fg_admin_notice() {
 if (!isset($_GET['page']) == 'fg_page') {
 add_action('admin_notices', 'fg_admin_notice');
 }
-
-
 function fg_admin_nag_ignore() {
     global $current_user;
     $user_id = $current_user->ID;
@@ -38,24 +36,18 @@ function fg_admin_nag_ignore() {
         add_user_meta($user_id, 'admin_ignore_notice', 'true', true);
     }
 }
-
 add_action('admin_init', 'fg_admin_nag_ignore');
-
 function fg_delete_user_entry() {
     global $current_user;
     $user_id = $current_user->ID;
     delete_user_meta($user_id, 'admin_ignore_notice', 'true', true);
 }
-
 register_deactivation_hook(__FILE__, 'fg_delete_user_entry');
-
 function fg_add_style() {
    wp_enqueue_style('form_style_sheet1', plugins_url('css/formstyle.css', __FILE__));
 }
-
 add_action("init", "fg_add_style");
-if (is_admin()) {
-	
+if (is_admin()) {	
 	function fg_option_style() {
       wp_enqueue_style('form1_style1_sheet1', plugins_url('css/fgstyle.css', __FILE__));
 }
@@ -63,11 +55,9 @@ add_action("init", "fg_option_style");
 }
 //setting page
 add_action('admin_menu', 'fg_menu_page');
-
 function fg_menu_page() {
     add_menu_page('fg', 'Contact Form', 'manage_options', 'fg_page', 'fg_setting_page', plugins_url('image/favicon.ico', __FILE__), 119);
 }
-
 function fg_setting_page() {
     $url = plugins_url();
 	?>
@@ -91,57 +81,40 @@ We have created a simple video for using the FormGet WordPress Plugin.
             <div id="fg_header">
                 <div class="fg_logo">
                     <h2>Sliding Contact Form By FormGet</h2>                   
-                </div>
-              
-                    <div class="fg_icon-option"> 
-			
-					<a href="http://www.formget.com/app/pricing" target="_blank">  <div  class="bounce_to" > Upgrade to Pro</div> </a>
-							
-					</div>
-              
+                </div>              
+                    <div class="fg_icon-option"> 			
+					<a href="http://www.formget.com/app/pricing" target="_blank">  <div  class="bounce_to" > Upgrade to Pro</div> </a>							
+					</div>              
                 <div class="clear"></div>
             </div>
             <div id="fg_main">
-
                 <div id="fg_of-nav">
                     <ul>
-
                         <li> <a class="pn-view-a" href="#pn_content" title="Form Builder"> Form Builder </a></li>
                         <li> <a class="pn-view-a" href="#pn_displaysetting" title="Embed Code">Embed Code</a></li>
 						<li> <a class="pn-view-a" href="#pn_example" title="Help" id="tooltip_target">Form Examples</a></li>
 						<li> <a class="pn-view-a" href="#pn_template" title="Help">Help</a></li>	
 						<li> <a class="pn-view-a" href="#pn_contactus" title="Help">Plugin Support</a></li>
 						<li> <a class="pn-view-a" href="#pn_review" title="Help"> Review </a></li>
-			                       
-                    </ul>
-
+			           </ul>
                 </div>
-                <div id="fg_content">
-				
+                <div id="fg_content">				
 				 <div class="fg_group" id="pn_content">
                         <h2>Contact Form Builder</h2>
-
                         <div class="fg_section section-text">
                             <h3 class="fg_heading"> Create your custom form by just clicking the fields on left side of the panel. Visibility Problem Click here - <a href="http://www.formget.com/app" target="_blank">Building Contact Form</a></h3>
-
                             <iframe src="http://www.formget.com/app" name="iframe" id="iframebox" style="width:100%; height:750px; border:1px solid #dfdfdf; align:center;">
                             </iframe>
                         </div>
-
-                    </div>	
-					
+                    </div>					
 					  <div class="fg_group" id="pn_example">
                         <h2>Get a new experience of designing forms with FormGet</h2>
-
                         <div class="fg_section section-text">
                             <h3 class="fg_heading" style="border: 1px solid #41a2cd; background-color: #19A0DB; color: white; font-family: arial; padding-left: 4px;"> Create online forms, share it and take your marketing efforts to a whole new level by increasing your visibility online . More exposure means more leads. And more leads means better chance of finding a respondent.</a></h3>
-
                             <iframe src="http://www.formget.com/form-examples/" name="iframe" id="iframebox" style="width:100%; height:750px; border:1px solid #dfdfdf; align:center;">
                             </iframe>
                         </div>
-
                     </div>
-
                     <div class="fg_group" id="pn_displaysetting">
                         <h2>Embed Code</h2>
                         <div class="fg_section section-text">
@@ -197,8 +170,7 @@ We have created a simple video for using the FormGet WordPress Plugin.
                                             </label> 		
 
     <?php } ?>
-                                    </div></br> </br>
-                                    
+                                    </div></br> </br>                                    
                                     <div class="color_selector">
                                         <h3 class="fg_heading">Paste or Select the background color that will complement your form</h3>
                                         <?php 
@@ -206,9 +178,7 @@ We have created a simple video for using the FormGet WordPress Plugin.
         $bg_color_value = get_option('fg_form_bgcolor');
                                         ?>
                                    <input class="background_color color {hash:true,caps:false}" value="<?php echo $bg_color_value; ?>" >
-                                   </div><br /><br />
-								   
-								    
+                                   </div><br /><br />	    
                                     <div class="color_selector">
                                         <h3 class="fg_heading">Select the contact us button color that will complement your form as well as your website. </h3>
                                         <?php 
@@ -216,8 +186,7 @@ We have created a simple video for using the FormGet WordPress Plugin.
         $button_bg_color = get_option('fg_button_bgcolor');
                                         ?>
                                    <input class=" button_color color {hash:true,caps:false}" value="<?php if($button_bg_color == ""){ echo "#a2b23d" ;} else { echo  $button_bg_color; }?>" >
-                                   </div><br /><br />
-								   
+                                   </div><br /><br />								   
 								    <div class="button_text">
                                         <h3 class="fg_heading">The text to be displayed in place of Contact Us. </h3>
                                         <?php 
@@ -230,63 +199,41 @@ We have created a simple video for using the FormGet WordPress Plugin.
                                     <input id="submit-form" class="fg_embed_code_save " type="button" value="Save Changes" name="submit_form" style="display:none; border: 1px solid #36caf0;"><br />			
                                     <div id="loader_img" align="center" style="margin-left:460px; display:none;">
                                         <img src="<?php echo plugins_url('image/ajax-loader.gif', __FILE__); ?>">
-                                    </div>
-                                      
+                                    </div>                                      
                                 </div>
-
                             </div>
                         </div>
-
-                    </div>
-					
+                    </div>					
 				   <div class="fg_group" id="pn_template">
                         <h2>Steps to use FormGet Contact Form Plugin</h2>
-
                         <div class="fg_section section-text">
                             <h3></h3>
                             <div id="help_txt" style="width:900px;">
                                <img src="<?php echo plugins_url('image/help_img.png', __FILE__); ?>"><br /><br />
                                     <div style="font-size:15px;"> <b> Thanks,</br>
-                                            FormGet Team</i></b></div>
-                            </div>
+                                            FormGet Team</i></b></div>                            </div>
                         </div>
-
                     </div>
-
-
                     <div class="fg_group" id="pn_contactus">
                         <iframe height='570' allowTransparency='true' frameborder='0' scrolling='no' style='width:100%;border:none'  src='http://www.formget.com/app/embed/form/qQvs-639'>Your Contact </iframe>
-
-                    </div>	
-					
+                    </div>						
   <div class="fg_group" id="pn_review">
                         <h2>Review Us, and grab a chance of getting free Pro Account.</h2>
-
                       <div class="fg_section section-text" id="review_message">
                            If you like the plugin, review us on WordPress.org <br><br>
-
                          One lucky person every month will get a chance to win 2 months of FormGet Pro Account absolutely FREE.						   
                           <br><br>  <div class="review_link" style="float: right;"> 
 			<a href="http://wordpress.org/support/view/plugin-reviews/sliding-contact-form-by-formget" target="_blank" style="color: white; text-decoration:none;"> Leave Review Here </a>
 							</div>
                         </div>
-
-                    </div>
-					
+                    </div>					
                 </div>
                 <div class="clear"></div>
             </div>
-
             <div class="fg_save_bar_top">
-
-
-
             </div>
-
         </form>
     </div>
-
-
     <?php
 }
  function fg_colorpicker_script(){
@@ -304,8 +251,7 @@ function fg_text_ajax_process_request() {
     $form_background_color = $_POST['color'];
 	$button_color = $_POST['button_color'];
 	$button_text = $_POST['button_txt'];
-		$val = $_POST['value_hide'];
-		
+		$val = $_POST['value_hide'];		
 	 update_option('sliding_fg_hide_video', $val);
     update_option('fg_iframe_embed_code', $text_value);
     update_option('fg_form_direction', $form_direction);
@@ -317,14 +263,11 @@ function fg_text_ajax_process_request() {
 }
 add_action('wp_ajax_master_response', 'fg_text_ajax_process_request');
 add_action('wp_ajax_nopriv_master_response', 'fg_text_ajax_process_request');
-
 function fg_toggle_script() {
     wp_enqueue_script('toggle_script', plugins_url('js/toggle_script.js', __FILE__), array('jquery'));
 }
 add_action('init', 'fg_toggle_script');
-
 if (!function_exists('embeded_code')) {
-
     function embeded_code() {
         global $wpdb;
         $fg_iframe_form = get_option('fg_iframe_embed_code');
@@ -336,7 +279,6 @@ if (!function_exists('embeded_code')) {
     }
 }
 if (!function_exists('display_iframe_form')) {
-
     function display_iframe_form() {
         global $wpdb;
         $fg_iframe_form = get_option('fg_iframe_embed_code');
@@ -359,7 +301,6 @@ if (!function_exists('display_iframe_form')) {
                 <?php
                 echo stripslashes($fg_iframe_form);
                 ?>
-
                         </div>
                     </div>
                 </div>
@@ -375,7 +316,6 @@ if (!function_exists('display_iframe_form')) {
                     </div>   
                     <div class="right_toggle_second">
                         <div class="fg_right_form_display" id="fg_right_form_display" style="overflow-y: scroll; background-color:<?php echo $form_bg_color; ?>" >
-
                 <?php
                 echo stripslashes($fg_iframe_form);
                 ?>
@@ -390,30 +330,23 @@ if (!function_exists('display_iframe_form')) {
                     <div class="bottom_toggle_first">
                         <div class="fg_bottom_contact_button" id="fg_bottom_contact_button" style="background-color: <?php echo get_option('fg_button_bgcolor'); ?>">
                             <p style="border:0; margin:0; padding-top: 8px; color: #ffffff; font-size:20px; "> <?php echo get_option('fg_button_text');   ?> </p>
-
                         </div>
                     </div>   
                     <div class="bottom_toggle_second">
-                       
-                        <div class="fg_bottom_form_display" id="fg_bottom_form_display" style="overflow-y: scroll; background-color:<?php echo $form_bg_color; ?>" >
+                 <div class="fg_bottom_form_display" id="fg_bottom_form_display" style="overflow-y: scroll; background-color:<?php echo $form_bg_color; ?>" >
                 <?php
-               echo stripslashes($fg_iframe_form);
-                
-                ?>
-                           
+               echo stripslashes($fg_iframe_form);                
+                ?>                           
                         </div>
                     </div>
                 </div> <?php
             }
         }
     }
-
 }
 add_action('wp_head', 'display_iframe_form');
-
 //schort code function
 if (!function_exists('formget_shortcode')) {
-
     function formget_shortcode($atts, $content = null) {
         extract(shortcode_atts(array(
             'user' => '',
@@ -468,7 +401,6 @@ EOD;
             return $tabbed_formget;
         }
     }
-
 }
 add_shortcode('formget', 'formget_shortcode');
 ?>

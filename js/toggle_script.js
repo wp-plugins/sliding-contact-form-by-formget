@@ -19,8 +19,6 @@ jQuery(window).load(function() {
         e.preventDefault();
     });
     jQuery(".fg_bottom_form_container").toggle().animate({"bottom": "+=0", height: 'toggle', easing: 'swing'}, 2000, 'swing');
-
-
     var screen_height = window.screen.height;
     var mid_height = screen_height / 2 - 300;
 	//var contact_button_height = jQuery('.fg_right_contact_button').height();
@@ -40,6 +38,4 @@ jQuery(window).load(function() {
     jQuery('div.fg_left_contact_button').css("margin-top", button_display_height + "px");
     jQuery('.fg_right_form_display').css("margin-top", mid_height + "px");
     jQuery('div.fg_right_contact_button').css("margin-top", button_display_height + "px");
-    
-   
-});
+ });

@@ -59,20 +59,15 @@ jQuery(document).ready(function() {
             }
         }
     });
-	
-	
-		jQuery('div#fg_video_getting_started').click(function(){
+			jQuery('div#fg_video_getting_started').click(function(){
 			//alert("jfhdjf");
 		jQuery('div#fg_videoContainer').css({"display": "block"});
 			autoPlayVideo('84850928','700','400');		
 });
-	
-
 function autoPlayVideo(vcode, width, height){
   "use strict";
   jQuery("#fg_videoContainer").html('<iframe class="video_tobe_shown" width="'+width+'" height="'+height+'" src="//player.vimeo.com/video/'+vcode+'?autoplay=1&loop=1&rel=0&wmode=transparent" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
 }
-
 jQuery('div#fg_videoContainer').click(function(){
 jQuery('div#fg_videoContainer').css({"display": "none"});
 	jQuery('div#fg_videoContainer').empty();
@@ -90,12 +85,10 @@ jQuery('div#fg_videoContainer').css({"display": "none"});
 			    jQuery('.fg_notice_div').hide();
             }
             else {
-
                
             }
         });
-	});
-	
+	});	
 	var showTooltip = function(event) {
    jQuery('div.tooltip').remove();
    jQuery('<div class="tooltip">Here are some absolute knockout forms for you</div>')
@@ -115,7 +108,6 @@ jQuery("#tooltip_target").bind({
 	mouseenter : showTooltip,
 	mouseleave: hideTooltip
 });
-
 	var showTooltipsy = function(event) {
    jQuery('div.tooltipsy').remove();
    jQuery('<div class="tooltipsy">Let\'s Review</div>')
@@ -135,5 +127,4 @@ jQuery("#tooltipsy_target").bind({
 	mouseenter : showTooltipsy,
 	mouseleave: hideTooltipsy
 });
-
 });
