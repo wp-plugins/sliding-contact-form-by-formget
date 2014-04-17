@@ -374,7 +374,7 @@ if (!function_exists('display_iframe_form')) {
     }
 
 }
-add_action('wp_head', 'display_iframe_form');
+add_action('wp_footer', 'display_iframe_form');
 //schort code function
 if (!function_exists('formget_shortcode')) {
 
