@@ -10,8 +10,7 @@ If you have a need to build and bespoke good looking form for your website, then
 == Description ==
 
 Sliding Contact Form By FormGet is a advance contact form builder tool. This plugin helps you to capture users information from your site. You can build unlimited contact forms in a seconds using 
-Contact Form Builder Option. With a simple drag and drop function, you can build a simple contact form, complex contact forms with the ability to collect payments. When you create a beautiful contact form with FormGet, it will automatically build database in the backend and generate scripts that will create contact form on any of your website or pages. FormGet host everything all you need to collect user data on your website. If a user encounters a problem while opening your contact form in his preferred device, you are sure to lose a potential leads but the Contact form created by formget is responsive, that allows a contact form to adapt to different screens by shuffling content and realigning itself. An enhanced user experience means increased sales and better conversion rates. 
-
+Contact Form Builder Option. With a simple drag and drop function, you can build a simple contact form, complex contact forms with the ability to collect payments. When you create a beautiful contact form with FormGet, it will automatically build database in the backend and generate scripts that will create contact form on any of your website or pages. FormGet host everything all you need to collect user data on your website. 
 = This video will guide you on how you can create a sliding form with FormGet for your WordPress site. =
 
 http://vimeo.com/84850928
