@@ -94,41 +94,41 @@ When you create account in FormGet you automatically get support desk. All the e
 
 == Changelog ==
 
-= Version 2.4=
+= Version 2.4 =
 * Dashboard CSS improved. 
 
-= Version 2.3=
+= Version 2.3 =
 * Contact form CSS improved.
 * integrated with email marketing system.
 * Widget CSS improve.
 
-= Version 2.2=
+= Version 2.2 =
 * Added FormGet widget, now u can add FormGet contact form at sidebar and footer also.
 * Can remove embed code.
 
-= Version 2.1=
+= Version 2.1 =
 * Improvement in CSS.
 
-= Version 2.0=
+= Version 2.0 =
 * Improvement in FormGet User Interface. Faster and smooth user experience.
 
-= Version 1.9=
+= Version 1.9 =
 * Activation error resolved.
 * New banner image with our mascot.
 
-= Version 1.8=
+= Version 1.8 =
 * CSS bug fixed.
 
-= Version 1.7=
+= Version 1.7 =
 * sliding issues resolve.
 
-= Version 1.6=
+= Version 1.6 =
 * CSS bug fixed.
 
-= Version 1.5=
+= Version 1.5 =
 * New video added.
 
-= Version 1.4=
+= Version 1.4 =
 * CSS bug fixed.
 * video added in plugin.
 * Form Examples added.
