@@ -3,7 +3,7 @@
   Plugin Name: Sliding Contact Form By Formget
   Plugin URI: http://www.formget.com
   Description:  Sliding Contact Form By Formget is a advance form builder tools. This plugin let you manage your formget account from your wordpress dashboard.
-  Version: 2.4
+  Version: 2.5
   Author: FormGet
   Author URI: http://www.formget.com
  */
