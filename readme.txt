@@ -3,7 +3,7 @@ Contributors: PankajAgarwal
 Tags: contact form, contact, form, forms, form maker, contact form plugin, contact form builder, contact form with recaptcha, feedback form, contact us, request form, contact button, drag and drop contact form, file upload contact form, contact form to email, contact form payments, contact for paypal, form solution, form builder, feedback, easy contact form, helpdesk
 Requires at least: 3.5.0
 Tested up to: 3.5.1
-Stable tag: 2.4
+Stable tag: 2.5
 
 If you have a need to build and bespoke good looking form for your website, then you approached to exact spot!
 
@@ -93,6 +93,8 @@ When you create account in FormGet you automatically get support desk. All the e
 
 
 == Changelog ==
+= Version 2.5 =
+* Form view in iphone fixed. 
 
 = Version 2.4 =
 * Dashboard CSS improved. 
